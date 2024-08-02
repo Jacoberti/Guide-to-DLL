@@ -313,7 +313,8 @@ int main()
 
 
 - Into the pane copy the code below and click **Ok** -> **Apply** -> **Ok**:
-  `xcopy /y /d "..\..\dll_project\x64\Debug"`
+`xcopy /y /d "..\..\dll_project\x64\Debug"`
+
   ![Pasted image 20240802131157](https://github.com/user-attachments/assets/8c8d3b23-58fc-4351-9cdf-e3fc8e88c0db)
 
   
