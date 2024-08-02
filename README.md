@@ -181,7 +181,7 @@ unsigned fibonacci_index()
 }
 ```
 
-- Now for testing our code go to the tab **Menu -> Build -> Build solution:
+- Now for testing our code go to the tab **Menu** -> **Build** -> **Build solution**:
   ![Pasted image 20240801151445](https://github.com/user-attachments/assets/3f5c563b-e1fa-4693-97fe-1f01e1561f59)
 
   
@@ -277,7 +277,7 @@ int main()
 ---
 
 ### 7. Import DLL in our application:
-- Go to **Property** [[#^81bae6]] -> **Linker** -> **Input** -> **Additional Dependencies** and choose the option **Edit**:
+- Go to **Property** -> **Linker** -> **Input** -> **Additional Dependencies** and choose the option **Edit**:
   
   ![Pasted image 20240802123812](https://github.com/user-attachments/assets/f865ff0c-a6ae-4957-b426-aa34c0c9199b)
 
@@ -285,7 +285,7 @@ int main()
 
 
 - Into the Additional Dependencies writes **YourProjectName.lib** and click **Ok**:
-  ![Pasted image 20240802124057](https://github.com/user-attachments/assets/4a46f190-85a4-4ca8-8d97-f9eeb7fc211d)
+  ![Pasted image 20240802125425](https://github.com/user-attachments/assets/f125cbb3-1650-4333-adc1-e143eecde31a)
 
   
 - Now go to **General** -> **Additional Library Directories** and choose the option **Edit**:
@@ -299,7 +299,7 @@ int main()
 
   
 - Select your DLL directory files, The path to our DLL project should look something like this:
-	`..\..\dll_project\x64\Debug
+	`..\..\dll_project\x64\Debug`
 
 - You will probably get an error like this:
   ![Pasted image 20240802130622](https://github.com/user-attachments/assets/b2463df3-b2a2-44a1-a0da-6a8f00a2b3e1)
