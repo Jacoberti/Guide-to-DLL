@@ -240,7 +240,7 @@ unsigned fibonacci_index()
 
 
 - Now select the path to your DLL project:
-  ![Pasted image 20240801155233](https://github.com/user-attachments/assets/51364431-ddb2-407c-938c-1f9de407bea3)
+  	![Pasted image 20240801155233](https://github.com/user-attachments/assets/51364431-ddb2-407c-938c-1f9de407bea3)
 
 
 
@@ -299,7 +299,7 @@ int main()
 
   
 - Select your DLL directory files, The path to our DLL project should look something like this:
-	`..\..\dll_project\x64\Debug`
+`..\..\dll_project\x64\Debug`
 
 - You will probably get an error like this:
   ![Pasted image 20240802130622](https://github.com/user-attachments/assets/b2463df3-b2a2-44a1-a0da-6a8f00a2b3e1)
