@@ -240,8 +240,8 @@ unsigned fibonacci_index()
 
 
 - Now select the path to your DLL project:
-
   ![Pasted image 20240801155233](https://github.com/user-attachments/assets/51364431-ddb2-407c-938c-1f9de407bea3)
+
 
 
 - At finish press **Ok** -> **Apply** -> **Ok**
@@ -271,9 +271,8 @@ int main()
   
 - Info:
   
-	This code can be compiled, but not linked. If you build the client app now, the error list shows several LNK2019 errors. That's because your project is 	missing some information: You haven't specified that your project has a dependency on the _MathLibrary.lib_ library yet. And, you haven't told the linker 	how to find the _MathLibrary.lib_ file.
-	
-	To fix this issue, you could copy the library file directly into your client app project. The linker would find and use it automatically. However, if both 	the library and the client app are under development, that might lead to changes in one copy that aren't shown in the other. To avoid this issue, you can 	set the **Additional Dependencies** property to tell the build system that your project depends on _MathLibrary.lib_. And, you can set an **Additional 		Library Directories** path in your project to include the path to the original library when you link.
+	This code can be compiled, but not linked. If you build the client app now, the error list shows several LNK2019 errors. That's because your project is missing some information: You haven't 			specified that your project has a dependency on the _MathLibrary.lib_ library yet. And, you haven't told the linker how to find the _MathLibrary.lib_ file.
+	To fix this issue, you could copy the library file directly into your client app project. The linker would find and use it automatically. However, if both the library and the client app are under 		development, that might lead to changes in one copy that aren't shown in the other. To avoid this issue, you can set the **Additional Dependencies** property to tell the build system that your project 	depends on _MathLibrary.lib_. And, you can set an **Additional Library Directories** path in your project to include the path to the original library when you link.
 
 ---
 
