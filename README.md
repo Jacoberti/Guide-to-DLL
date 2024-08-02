@@ -1,5 +1,5 @@
-### 1. Official Microsoft guide: https://learn.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp?view=msvc-170
-- Reference: ![[Pasted image 20240801125314.png]]
+![Pasted image 20240801125310](https://github.com/user-attachments/assets/5c417a25-2976-4d84-a85b-a2e4414eb074)### 1. Official Microsoft guide: https://learn.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp?view=msvc-170
+- Reference: ![Pasted image 20240801125310](https://github.com/user-attachments/assets/66a6af5f-9dc3-4c00-ba6b-ee1f7ce5caa4)
 
 ---
 
